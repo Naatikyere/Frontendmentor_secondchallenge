@@ -24,7 +24,7 @@ justify-self: center;
     flex:1;
     padding: 20px;
     border-radius: 20px;
-    height: 20em;
+    height: 18em;
     flex-wrap: wrap;
     text-align: center;
     font-size: 1.5em;
@@ -69,7 +69,7 @@ justify-self: center;
 }
 .firstBox p1{
     font-size: 0.5em;
-    padding-top: 3em;
+    padding-top: 2em;
 }
 .secondBox{
     background-color:rgb(249, 249, 249) ;
@@ -82,8 +82,11 @@ justify-self: center;
     flex-basis: 50%;
     flex: 1;
     border-radius: 20px;
-    height: 20em;
+    height: 18em;
     flex-wrap: wrap;
+}
+.secondBox div{
+    align-self: start;
 }
 .summary_container{
     width: 100%;
@@ -123,6 +126,10 @@ ul li p2{
     font-weight:400 ;
     font-size: 1.2rem;
 }
+ul li p2 b{
+    font-weight: 800;
+    color: black;
+}
 .one{
     background-color: rgba(235, 113, 113, 0.2);
 }
@@ -137,15 +144,14 @@ ul li p2{
 }
 .Btn{
     border-radius: 40px;
-    background: repeating-linear-gradient( -180deg, rgb(12 74 182 / 85%), rgb(30 27 249 / 73%) );
-    /*background-color:rgba(42, 27, 252, 0.7);*/
+    background-color:rgba(10, 10, 10, 0.7);
     padding: 20px;
     color: aliceblue;
     text-align: center;
     cursor: pointer;
     border: none;
     width: 20em;
-    margin-top:5em;
+    margin-top:4em;
 }
 
 @media only screen and (max-width: 600px){
