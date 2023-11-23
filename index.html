@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet " href="reset.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
@@ -18,33 +19,48 @@
   <div class="firstBox">
     <p>Your Result</p>
     <div class="cycle">
-      <h2>76</h2>
+      <h1>76</h2>
       <p1>of 100</p1>
     </div>
     
-    <h4>Great</h4>
-    <p>You scored higher than 65% of the people who have taken these tests.
-    </p>
+    <h1 class="great">Great</h1>
+    <p1>You scored higher than 65% of the people who have taken these tests.
+    </p1>
     
   </div>
+  
   <div class="secondBox">
 
     <div>Summary</div> 
 
 <ul>
-  
-  <il>Reaction
-    80 / 100  </il>
-  <il> Memory
-    92 / 100</il>
-  <il>Verbal
-    61 / 100</il>
-  <il> Visual
-    72 / 100</il>
+
+  <li class="one">
+     <p1> <img src="assets/images/icon-reaction.svg" alt="lighting" >Reaction</p1>
+    <p2>80 / 100</p2> 
+   </li>
+
+  <li class="two">
+    <p1> <img src="assets/images/icon-memory.svg" alt="" srcset="">Memory</p1>
+    <p2>92 / 100</p2>
+  </li>
+
+  <li class="three">
+    <p1> <img src="assets/images/icon-verbal.svg" alt="" srcset="">Verbal</p1>
+    <p2><b>61</b> / 100</p2>
+  </li>
+
+  <li class="four"> <p1> <img src="assets/images/icon-visual.svg" alt="" srcset="">Visual</p1>
+    <p2><small>72</small> / 100</p2>
+  </li>
 
 </ul>
+<div>
   <button alt="submit" class="Btn">Continue</button>
+</div>
   </div>
+
+
   </div>
   
   
